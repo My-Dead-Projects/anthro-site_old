@@ -29,3 +29,5 @@ rerun.txt
 pickle-email-*.html
 
 .c9revisions
+
+.secret
