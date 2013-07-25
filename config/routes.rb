@@ -1,8 +1,11 @@
 AnthroSite::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/about"
-  get "static_pages/contact"
-  get "static_pages/help"
+  root to: "static_pages#home"
+  get "/home", to: "static_pages#home"
+  get "/about", to: "static_pages#about"
+  get "/contact", to: "static_pages#contact"
+  get "/help", to: "static_pages#help"
+  get "/news", to: "static_pages#news"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
